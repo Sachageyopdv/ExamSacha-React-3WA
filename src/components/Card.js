@@ -6,7 +6,7 @@ const Card = ({ img, name, type }) => {
           <figure>
             <img
               src={img}
-              alt="Placeholder image"
+              alt="Placeholder"
               width="240"
               height="240"
             />
