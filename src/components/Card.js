@@ -1,8 +1,8 @@
 const Card = ({ img, name, type }) => {
   return (
     <>
-      <div class="card">
-        <div class="card-image">
+      <div className="card">
+        <div className="card-image">
           <figure>
             <img
               src={img}
@@ -10,11 +10,11 @@ const Card = ({ img, name, type }) => {
             />
           </figure>
         </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">{name}</p>
-              <p class="subtitle is-6">Instrument à {type}</p>
+        <div className="card-content">
+          <div className="media">
+            <div className="media-content">
+              <p className="title is-4">{name}</p>
+              <p className="subtitle is-6">Instrument à {type}</p>
             </div>
           </div>
         </div>

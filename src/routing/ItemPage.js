@@ -4,7 +4,6 @@ import Card from "../components/Card";
 const ItemPage = ({ item }) => {
   const { id } = useParams();
   const nb = parseInt(id);
-  console.log(item[nb].imgsrc);
 
   return (
     <>
