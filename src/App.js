@@ -1,4 +1,4 @@
-import HomePage from "./routing/HomePage";
+import HomePage from "./routing/MainPage";
 import router from "./routing/routes";
 import { RouterProvider } from "react-router-dom";
 
