@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import Card from "../components/Card";
 
 const ItemPage = ({ item }) => {
   const { id } = useParams();
@@ -7,9 +8,7 @@ const ItemPage = ({ item }) => {
 
   return (
     <>
-      <p>{item[nb].name}</p>
-      <img src={item[nb].imgsrc}></img>
-      <p>Instrument à {item[nb].type}</p>
+      <Card name={item[nb].name} img={item[nb].imgsrc} type={item[nb].type}/>
     </>
   );
 };
